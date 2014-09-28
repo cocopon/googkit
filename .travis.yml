@@ -1,9 +1,15 @@
 language: python
+
 notifications:
   email: false
+
 python:
   - "2.7"
-  - "3.3"
   - "3.4"
+
+install:
+  - pip install -U -r requirements.txt --use-mirrors
+  - pip install -U -r test-requirements.txt --use-mirrors
+
 # command to run tests
 script: py.test test
