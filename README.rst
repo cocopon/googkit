@@ -2,7 +2,7 @@ Googkit
 =======
 
 
-.. image:: https://pypip.in/version/googkit/badge.svg
+.. image:: https://img.shields.io/pypi/v/googkit.svg
    :target: https://crate.io/packages/googkit
 
 .. image:: https://travis-ci.org/googkit/googkit.svg?branch=master
